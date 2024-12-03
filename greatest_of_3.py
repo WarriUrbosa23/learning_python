@@ -43,6 +43,10 @@ def greatest_of_3_alternate(a, b, c):
 
 	return c
 
+def hello_name(name):
+	print("hello {name}".format(name=name))
 
 assert greatest_of_3_alternate(12, 24, 36) == 36
 print(greatest_of_3_alternate(a,b,c))
+
+#hello_name(input("What's your name?"))
